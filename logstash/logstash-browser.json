@@ -391,11 +391,6 @@
         "name": "interval",
         "options": [
           {
-            "text": "1s",
-            "value": "1s",
-            "selected": false
-          },
-          {
             "text": "1m",
             "value": "1m",
             "selected": true
@@ -449,9 +444,14 @@
             "text": "30d",
             "value": "30d",
             "selected": false
+          },
+          {
+            "text": "1s",
+            "value": "1s",
+            "selected": false
           }
         ],
-        "query": "1s,1m,15m,30m,1h,3h,6h,12h,1d,7d,14d,30d",
+        "query": "1m,15m,30m,1h,3h,6h,12h,1d,7d,14d,30d,1s",
         "refresh": 1,
         "type": "custom"
       },
@@ -528,7 +528,7 @@
   },
   "refresh": false,
   "schemaVersion": 12,
-  "version": 1,
+  "version": 2,
   "links": [],
   "gnetId": 635
 }
